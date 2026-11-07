@@ -1,7 +1,3 @@
-# JiYuUdpTool
-
-`py/Jiyu_udp_attack.py` 的精简版原生 Windows C++ 程序。直接打开 `JiYuUdpTool.exe` 进入交互模式，不需要先打开 CMD，也不需要 Python。保留消息、命令、直接运行程序、重启和关机五类发送操作；原 Python 文件保留作包模板参考，不参与 EXE 编译。
-
 ## 编译
 
 使用 Visual Studio 打开 `JiYuUdpTool.sln`，选择 `Release | x64` 后生成。输出位于 `x64/Release/JiYuUdpTool.exe`。项目使用 Windows SDK、Winsock 和 IP Helper API，不需要额外 C++ 库。
